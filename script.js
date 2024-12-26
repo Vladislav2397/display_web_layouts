@@ -23,6 +23,8 @@ function onScreen() {
 }
 
 window.visualViewport.addEventListener('resize', onResize)
+window.visualViewport.addEventListener('scroll', onResize)
 onResize()
-window.visualViewport.addEventListener('resize', onScreen)
+// window.visualViewport.addEventListener('resize', onScreen)
+// window.visualViewport.addEventListener('scroll', onScreen)
 onScreen()
