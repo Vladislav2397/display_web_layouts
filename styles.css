@@ -8,9 +8,10 @@ body {
     top: 0;
     left: 0;
     width: 100svw;
-    height: 100svh;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    height: 50svh;
+    overflow-x: visible !important;
+    overflow-y: visible !important;
+    overflow: visible !important;
 }
 
 body {
@@ -22,6 +23,14 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+#noscroll {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100svw;
+    height: 100svh;
 }
 
 .header {
